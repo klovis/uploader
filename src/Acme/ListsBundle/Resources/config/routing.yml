@@ -1,0 +1,7 @@
+acme_lists_homepage:
+    path:     /
+    defaults: { _controller: AcmeListsBundle:Default:index }
+
+acme_lists_listing:
+    path:     /lists
+    defaults: { _controller: AcmeListsBundle:Default:index }
