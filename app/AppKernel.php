@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),
             new Acme\UserBundle\AcmeUserBundle(),
             new Acme\ListsBundle\AcmeListsBundle(),
+            new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
